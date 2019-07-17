@@ -1,0 +1,35 @@
+
+
+.square {
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin-top: -1px;
+  margin-right: -1px;
+  line-height: 34px;
+  border: 1px solid #999;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.board-row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.column {
+  display: inline-block;
+  width: 100px;
+}
