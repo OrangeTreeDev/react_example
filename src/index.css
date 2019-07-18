@@ -33,3 +33,7 @@
   display: inline-block;
   width: 100px;
 }
+
+.button {
+  color: red;
+}

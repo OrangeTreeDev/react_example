@@ -19,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <button className="button">css style重复</button>
     </div>
   );
 }

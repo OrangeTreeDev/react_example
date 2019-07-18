@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import RootDiff from './components/diff';
-import ButtonPanel from './components/avoidReconciliation';
+import App from './App';
 
-ReactDOM.render(<ButtonPanel></ButtonPanel>, document.getElementById('root'));
-
+ReactDOM.render(<App></App>, document.getElementById('root'));
